@@ -28,10 +28,10 @@ HEROKU_PROD_APP_NAME="coeblockchainprod$TICKS"
 HEROKU_PIPELINE_NAME="coeblockchainpipieline$TICKS"
 
 # Usernames or aliases of the orgs you're using
-DEV_HUB_USERNAME="Devhub"
-DEV_USERNAME="DevOrg"
-STAGING_USERNAME="StagingOrg"
-PROD_USERNAME="productionOrg"
+DEV_HUB_USERNAME="Devhub$TICKS"
+DEV_USERNAME="DevOrg$TICKS"
+STAGING_USERNAME="StagingOrg$TICKS"
+PROD_USERNAME="productionOrg$TICKS"
 
 # Repository with your code
 GITHUB_REPO="https://github.com/alekhSharma/salesforce-dx-pipeline-sample.git"
